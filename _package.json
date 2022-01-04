@@ -1,0 +1,40 @@
+{
+  "name": "dev-preset",
+  "version": "1.0.0",
+  "description": "dev preset",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install",
+    "test": "node src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XinChou16/dev-preset.git"
+  },
+  "keywords": [
+    "preset",
+    "webpack",
+    "vite",
+    "rollup",
+    "babel",
+    "TS",
+    "less",
+    "sass",
+    "scss",
+    "tailwind"
+  ],
+  "author": "Xin Zhou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/XinChou16/dev-preset/issues"
+  },
+  "homepage": "https://github.com/XinChou16/dev-preset#readme",
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx,vue,less}": "prettier --write"
+  },
+  "devDependencies": {
+    "husky": "^7.0.0",
+    "lint-staged": "^12.1.5",
+    "prettier": "^2.5.1"
+  }
+}
